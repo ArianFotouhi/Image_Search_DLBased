@@ -1,4 +1,4 @@
-#Image Search
+# Image Search
 In this app, we have developed an image similarity search engine utilizing the ResNet-50 model for content-based image retrieval. The objective is to find visually similar images from a database based on a given input image.
 
 The ResNet-50 model is employed for feature extraction. We specifically utilize the early layers of the model to extract image features while excluding the final layer (classification layer). This process enables us to obtain meaningful image embeddings.
