@@ -15,3 +15,6 @@ Sorting and Top Results: The computed similarity scores are stored in a list. We
 The app demonstrates an effective approach to content-based image retrieval by leveraging the power of deep learning and the ResNet-50 model. The utilization of cosine similarity enables efficient image comparison, facilitating the creation of a robust and user-friendly image similarity search engine. Lastly, considering dependencies install the required libraries by: 
 ```bash
 pip install torch torchvision pillow
+```
+
+Lastly, for image search related tasks, usually a vector database is recommended to store the data due to more facility in search of high dimensional data (image, sound, text, etc.).
