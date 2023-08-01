@@ -17,4 +17,4 @@ The app demonstrates an effective approach to content-based image retrieval by l
 pip install torch torchvision pillow
 ```
 
-Lastly, for image search related tasks, usually a vector database is recommended to store the data due to more facilities in search of high dimensional data (image, sound, text, etc.).
+Lastly, for image search related tasks, usually a vector database like Chroma and Pinecone is recommended to store the data due to more facilities in search of high dimensional data (image, sound, text, etc.).
